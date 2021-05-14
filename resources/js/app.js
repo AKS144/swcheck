@@ -10,7 +10,7 @@ window.Vue = require('vue');
 import Vue from 'vue';
 
 window.Fire =  new Vue();//only for User.vue
-Vue.config.productionTip = false
+//Vue.config.productionTip = false
 
 import VueProgressBar from 'vue-progressbar'
 Vue.use(VueProgressBar, {

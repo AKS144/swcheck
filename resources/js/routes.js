@@ -1,5 +1,5 @@
-import UserManagement from "./components/usermanagement";
-import Profile from "./components/profile";
+import UserManagement from "./components/Usermanagement";
+import Profile from "./components/Profile";
 import User from "./components/User";
 // Then we register route for User management module.
 export const routes= [

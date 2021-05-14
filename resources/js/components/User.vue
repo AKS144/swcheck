@@ -33,7 +33,7 @@
                     <td>
                         <a href="#" @click="editModal(user)">
                             <i class="fa fa-edit blue"></i>
-                        </a>                        
+                        </a>
                         <a href="#" @click="deleteUser(user.id)">
                             <i class="fa fa-trash red"></i>
                         </a>
@@ -141,9 +141,7 @@
         methods: {
             getResults(page = 1) {
                         axios.get('api/user?page=' + page)
-                            .then(response => {
-                                this.users = response.data;
-                            });
+                            .then(response => { this.users = response.data; });
                 },
             updateUser(){
                 this.$Progress.start();
